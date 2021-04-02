@@ -1,4 +1,3 @@
-```rust
 use std::collections::BTreeMap;
 
 struct Db {
@@ -28,5 +27,3 @@ fn main() {
     db.insert("Hello".to_string(), "World".to_string());
     println!("{}", db.find_one("Hello".to_string()));
 }
-
-```
